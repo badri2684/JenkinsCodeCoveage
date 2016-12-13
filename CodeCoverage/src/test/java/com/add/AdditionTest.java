@@ -8,7 +8,10 @@ public class AdditionTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		Addition add=new Addition(10,20);
+		assertTrue(add.add()==30);
 	}
+
+
 
 }
